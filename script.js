@@ -1,0 +1,1 @@
+const f=document.querySelector('#lead');if(f)f.addEventListener('submit',e=>{e.preventDefault();document.querySelector('#msg').textContent='Thanks! Your request has been received. Connect this form to the company email/CRM before publishing.';document.querySelector('#msg').style.color='#ef7d24';document.querySelector('#msg').style.fontWeight='800';f.reset()});
